@@ -7,3 +7,16 @@ export async function mockHomepagePayload(page: Page) {
     route.fulfill({ json: homepagePayload, status: 200 });
   });
 }
+
+export async function mockLocation(page: Page) {
+  await page.route("https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location", (route) =>
+    route.fulfill({
+      json: {
+        country: "PL",
+        state: "24",
+        stateName: "Silesia",
+        continent: "EU",
+      },
+    })
+  );
+}

@@ -1,4 +1,5 @@
 import { test as _test } from "@playwright/test";
+import { mockLocation } from "fixtures/api/mocks";
 
 import { HomePage } from "pages";
 import { CookieConsentBanner } from "pages/panels";
@@ -21,6 +22,7 @@ const test = _test.extend<TestProps>({
 test.describe("Not logged user", () => {
   test("should see cookies banner and accept the consent", async ({ page, cookieConsentBanner, homePage }) => {
     await homePage.goto();
+    await mockLocation(page);
     await cookieConsentBanner.assertCookieConsentBannerIsVisible(true);
     await cookieConsentBanner.asserPolicyTitle();
     await cookieConsentBanner.asserPolicyContent();
