@@ -75,7 +75,6 @@ test.describe("Logged user", () => {
     editPlaylistDetails,
     homePage,
     yourLibrarySidebar,
-    page,
     playlistPage,
   }) => {
     await homePage.goto();
@@ -87,11 +86,9 @@ test.describe("Logged user", () => {
     await playlistPage.clickPlaylistTitle();
     const formatted = new Date().toISOString().slice(0, 19).replace("T", " ");
     await editPlaylistDetails.assertEditPlaylistDetailsIsVisible({ visible: true });
-    const playlistId = page.url();
     await editPlaylistDetails.fillNameInput(`Playlist name ${formatted}`);
     await editPlaylistDetails.fillDescriptionInput(`Playlist created at ${formatted}`);
     await editPlaylistDetails.clickSaveButton();
     await editPlaylistDetails.assertEditPlaylistDetailsIsVisible({ visible: false });
-    console.log(playlistId);
   });
 });

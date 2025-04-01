@@ -20,7 +20,6 @@ const test = _test.extend<TestProps>({
 
 test.describe("Not logged user", () => {
   test("should see cookies banner and accept the consent", async ({ page, cookieConsentBanner, homePage }) => {
-    const promiseSendConsentResponse = page.waitForResponse(REGEXPS.CONSENT_RECEIPTS_URL);
     await homePage.goto();
     await cookieConsentBanner.assertCookieConsentBannerIsVisible(true);
     await cookieConsentBanner.asserPolicyTitle();
@@ -31,7 +30,7 @@ test.describe("Not logged user", () => {
     await cookieConsentBanner.asserAcceptCookiesButton();
     await cookieConsentBanner.asserCookieSettingsButton();
     await cookieConsentBanner.clickAcceptCookiesButton();
-    await promiseSendConsentResponse;
+    await page.waitForResponse(REGEXPS.CONSENT_RECEIPTS_URL);
     await cookieConsentBanner.assertCookieConsentBannerIsVisible(false);
   });
 });
