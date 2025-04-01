@@ -1,0 +1,1945 @@
+{
+  "data": {
+    "home": {
+      "__typename": "HomeResponsePayload",
+      "greeting": {
+        "transformedLabel": "Good afternoon",
+        "translatedBaseText": "Good afternoon"
+      },
+      "sectionContainer": {
+        "sections": {
+          "items": [
+            {
+              "data": {
+                "__typename": "HomeGenericSectionData",
+                "headerEntity": {
+                  "__typename": "UnknownType"
+                },
+                "subtitle": {
+                  "transformedLabel": "",
+                  "translatedBaseText": null
+                },
+                "title": {
+                  "transformedLabel": "Recommended for you",
+                  "translatedBaseText": "Recommended for you"
+                }
+              },
+              "sectionItems": {
+                "items": [
+                  {
+                    "data": {
+                      "__typename": "HomeRecsItemData"
+                    },
+                    "content": {
+                      "__typename": "PlaylistResponseWrapper",
+                      "data": {
+                        "__typename": "Playlist",
+                        "attributes": [
+                          {
+                            "key": "request_id",
+                            "value": "ssp~06316899bb2eb03c2fbd19fe0e2ed4d4a3a2"
+                          },
+                          {
+                            "key": "uri",
+                            "value": "spotify:user:spotify:playlist:37i9dQZF1DX2vTOtsQ5Isl"
+                          },
+                          {
+                            "key": "status",
+                            "value": "PUBLISHED"
+                          },
+                          {
+                            "key": "isAlgotorial",
+                            "value": "false"
+                          },
+                          {
+                            "key": "primary_color",
+                            "value": "#ffffff"
+                          },
+                          {
+                            "key": "recs.hasArtists",
+                            "value": "spotify:artist:4E2rKHVDssGJm2SCDOMMJB,spotify:artist:2W8yFh0Ga6Yf3jiayVxwkE,spotify:artist:66CXWjxzNUsdJxJ2JdwvnR,spotify:artist:67FB4n52MgexGQIG8s0yUH,spotify:artist:33qOK5uJ8AR2xuQQAhHump"
+                          },
+                          {
+                            "key": "autoplay",
+                            "value": "spotify:playlist:37i9dQZF1DX99QlO9EobD7"
+                          },
+                          {
+                            "key": "header_image_url_desktop",
+                            "value": "https://i.scdn.co/image/ab6768640000fe896b750b3a8cfa543904c0b60a"
+                          },
+                          {
+                            "key": "image_url",
+                            "value": "https://i.scdn.co/image/ab67686d00003ae003df4622090e5d3f797f60ea"
+                          },
+                          {
+                            "key": "episode_description",
+                            "value": "Gorące nowości i przeboje od światowych gwiazd muzyki pop. Cover: Ariana Grande"
+                          },
+                          {
+                            "key": "is_video_first",
+                            "value": "false"
+                          },
+                          {
+                            "key": "correlation-id",
+                            "value": "ssp~06316899bb2eb03c2fbd19fe0e2ed4d4a3a2"
+                          }
+                        ],
+                        "description": "Gorące nowości i przeboje od światowych gwiazd muzyki pop. Cover: Ariana Grande",
+                        "format": "format-shows-shuffle",
+                        "images": {
+                          "items": [
+                            {
+                              "extractedColors": {
+                                "colorDark": {
+                                  "hex": "#077BC4",
+                                  "isFallback": false
+                                }
+                              },
+                              "sources": [
+                                {
+                                  "height": null,
+                                  "url": "https://i.scdn.co/image/ab67706f00000002433caad676212b0ba0e917f5",
+                                  "width": null
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "name": "TOP POP 2025",
+                        "ownerV2": {
+                          "data": {
+                            "__typename": "User",
+                            "name": "Spotify",
+                            "uri": "spotify:user:spotify"
+                          }
+                        },
+                        "uri": "spotify:playlist:37i9dQZF1DX2vTOtsQ5Isl"
+                      }
+                    },
+                    "uri": "spotify:playlist:37i9dQZF1DX2vTOtsQ5Isl"
+                  },
+                  {
+                    "data": {
+                      "__typename": "HomeRecsItemData"
+                    },
+                    "content": {
+                      "__typename": "PlaylistResponseWrapper",
+                      "data": {
+                        "__typename": "Playlist",
+                        "attributes": [
+                          {
+                            "key": "request_id",
+                            "value": "ssp~06316899d795df71edf6f6bc4447d302604f"
+                          },
+                          {
+                            "key": "uri",
+                            "value": "spotify:user:spotify:playlist:37i9dQZF1DX9YOBVbaj8Mw"
+                          },
+                          {
+                            "key": "status",
+                            "value": "PUBLISHED"
+                          },
+                          {
+                            "key": "isAlgotorial",
+                            "value": "true"
+                          },
+                          {
+                            "key": "primary_color",
+                            "value": "#ffffff"
+                          },
+                          {
+                            "key": "autoplay",
+                            "value": "spotify:playlist:37i9dQZF1DXd1Mi3gsoQO0"
+                          },
+                          {
+                            "key": "madeFor.username",
+                            "value": "31ukn7n6u3d2zmy6wunja4ba3rd4"
+                          },
+                          {
+                            "key": "is_video_first",
+                            "value": "false"
+                          },
+                          {
+                            "key": "correlation-id",
+                            "value": "ssp~06316899d795df71edf6f6bc4447d302604f"
+                          }
+                        ],
+                        "description": "Posłuchaj nominowanych do nagród Fryderyk w kategorii muzyka rozrywkowa i jazz.",
+                        "format": "editorial",
+                        "images": {
+                          "items": [
+                            {
+                              "extractedColors": {
+                                "colorDark": {
+                                  "hex": "#3850A0",
+                                  "isFallback": false
+                                }
+                              },
+                              "sources": [
+                                {
+                                  "height": null,
+                                  "url": "https://i.scdn.co/image/ab67706f000000021ad4f5b8129d9bc07d428f49",
+                                  "width": null
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "name": "Fryderyk 2025",
+                        "ownerV2": {
+                          "data": {
+                            "__typename": "User",
+                            "name": "Spotify",
+                            "uri": "spotify:user:spotify"
+                          }
+                        },
+                        "uri": "spotify:playlist:37i9dQZF1DX9YOBVbaj8Mw"
+                      }
+                    },
+                    "uri": "spotify:playlist:37i9dQZF1DX9YOBVbaj8Mw"
+                  },
+                  {
+                    "data": {
+                      "__typename": "HomeRecsItemData"
+                    },
+                    "content": {
+                      "__typename": "PlaylistResponseWrapper",
+                      "data": {
+                        "__typename": "Playlist",
+                        "attributes": [
+                          {
+                            "key": "request_id",
+                            "value": "ssp~0631689938c99eb8771e4be40f3036932d37"
+                          },
+                          {
+                            "key": "uri",
+                            "value": "spotify:user:spotify:playlist:37i9dQZF1DWY3UKS6jvnxr"
+                          },
+                          {
+                            "key": "status",
+                            "value": "PUBLISHED"
+                          },
+                          {
+                            "key": "isAlgotorial",
+                            "value": "false"
+                          },
+                          {
+                            "key": "primary_color",
+                            "value": "#ffffff"
+                          },
+                          {
+                            "key": "recs.hasArtists",
+                            "value": "spotify:artist:4lmMkf4tLyEKBslusiNZdu,spotify:artist:0QR764k0D36npmTMWx5bft,spotify:artist:4K8wRpyAE3Cwq4q5Jpgpdh,spotify:artist:1Kjs5u8GQf6zCFdTj6SI9E,spotify:artist:4NvUzGnIZ4z0sSD4bnX3zi"
+                          },
+                          {
+                            "key": "autoplay",
+                            "value": "spotify:playlist:37i9dQZF1DX06QJ0dliLsu"
+                          },
+                          {
+                            "key": "header_image_url_desktop",
+                            "value": "https://i.scdn.co/image/ab6768640000fe89f7a3e6c206ff23bfa5e6b002"
+                          },
+                          {
+                            "key": "image_url",
+                            "value": "https://i.scdn.co/image/ab67686d00003ae069291febff271acab6bce5eb"
+                          },
+                          {
+                            "key": "episode_description",
+                            "value": "Najlepsze polskie trapy. Skrrt! Cover: Aleshen"
+                          },
+                          {
+                            "key": "is_video_first",
+                            "value": "false"
+                          },
+                          {
+                            "key": "correlation-id",
+                            "value": "ssp~0631689938c99eb8771e4be40f3036932d37"
+                          }
+                        ],
+                        "description": "Najlepsze polskie trapy. Skrrt! Cover: Aleshen",
+                        "format": "format-shows-shuffle",
+                        "images": {
+                          "items": [
+                            {
+                              "extractedColors": {
+                                "colorDark": {
+                                  "hex": "#6F6FB6",
+                                  "isFallback": false
+                                }
+                              },
+                              "sources": [
+                                {
+                                  "height": null,
+                                  "url": "https://i.scdn.co/image/ab67706f000000021819df7fbf82dec0ccee146a",
+                                  "width": null
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "name": "Trap strefa",
+                        "ownerV2": {
+                          "data": {
+                            "__typename": "User",
+                            "name": "Spotify",
+                            "uri": "spotify:user:spotify"
+                          }
+                        },
+                        "uri": "spotify:playlist:37i9dQZF1DWY3UKS6jvnxr"
+                      }
+                    },
+                    "uri": "spotify:playlist:37i9dQZF1DWY3UKS6jvnxr"
+                  },
+                  {
+                    "data": {
+                      "__typename": "HomeRecsItemData"
+                    },
+                    "content": {
+                      "__typename": "PlaylistResponseWrapper",
+                      "data": {
+                        "__typename": "Playlist",
+                        "attributes": [
+                          {
+                            "key": "request_id",
+                            "value": "ssp~06316899b0f33eec1781ed3ef60d3d0c1a83"
+                          },
+                          {
+                            "key": "uri",
+                            "value": "spotify:user:spotify:playlist:37i9dQZF1DWTnbCPOmjbdB"
+                          },
+                          {
+                            "key": "status",
+                            "value": "PUBLISHED"
+                          },
+                          {
+                            "key": "isAlgotorial",
+                            "value": "false"
+                          },
+                          {
+                            "key": "primary_color",
+                            "value": "#ffffff"
+                          },
+                          {
+                            "key": "recs.hasArtists",
+                            "value": "spotify:artist:0lKCO7SCRiTCS4ZEU6l1zx,spotify:artist:6I5JdHLVup9pIjn9g5K20N,spotify:artist:2fcIazWMq5XONzkuCwSSEr,spotify:artist:1HX9uYVwH6HHGyE8xSgtUD,spotify:artist:5XGkLMcwitYFdwroktQs7o"
+                          },
+                          {
+                            "key": "autoplay",
+                            "value": "spotify:playlist:37i9dQZF1DWSWubjQuAKF1"
+                          },
+                          {
+                            "key": "header_image_url_desktop",
+                            "value": "https://i.scdn.co/image/ab6768640000fe895da7e2390c0a6717bb2b416f"
+                          },
+                          {
+                            "key": "image_url",
+                            "value": "https://i.scdn.co/image/ab67686d00003ae0767d84fda09049516a4f024c"
+                          },
+                          {
+                            "key": "episode_description",
+                            "value": "Najlepsze polskie piosenki na czasie. Cover: Sarsa"
+                          },
+                          {
+                            "key": "is_video_first",
+                            "value": "false"
+                          },
+                          {
+                            "key": "correlation-id",
+                            "value": "ssp~06316899b0f33eec1781ed3ef60d3d0c1a83"
+                          }
+                        ],
+                        "description": "Najlepsze polskie piosenki na czasie. Cover: Sarsa",
+                        "format": "format-shows-shuffle",
+                        "images": {
+                          "items": [
+                            {
+                              "extractedColors": {
+                                "colorDark": {
+                                  "hex": "#C80010",
+                                  "isFallback": false
+                                }
+                              },
+                              "sources": [
+                                {
+                                  "height": null,
+                                  "url": "https://i.scdn.co/image/ab67706f00000002eaa762c15fd47e0a4921d1a1",
+                                  "width": null
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "name": "Polskie hity",
+                        "ownerV2": {
+                          "data": {
+                            "__typename": "User",
+                            "name": "Spotify",
+                            "uri": "spotify:user:spotify"
+                          }
+                        },
+                        "uri": "spotify:playlist:37i9dQZF1DWTnbCPOmjbdB"
+                      }
+                    },
+                    "uri": "spotify:playlist:37i9dQZF1DWTnbCPOmjbdB"
+                  },
+                  {
+                    "data": {
+                      "__typename": "HomeRecsItemData"
+                    },
+                    "content": {
+                      "__typename": "PlaylistResponseWrapper",
+                      "data": {
+                        "__typename": "Playlist",
+                        "attributes": [
+                          {
+                            "key": "request_id",
+                            "value": "ssp~06316898fa474d652bddb58d0a2b514d41d3"
+                          },
+                          {
+                            "key": "uri",
+                            "value": "spotify:user:spotify:playlist:37i9dQZF1DX49bSMRljsho"
+                          },
+                          {
+                            "key": "status",
+                            "value": "PUBLISHED"
+                          },
+                          {
+                            "key": "isAlgotorial",
+                            "value": "false"
+                          },
+                          {
+                            "key": "primary_color",
+                            "value": "#ffffff"
+                          },
+                          {
+                            "key": "recs.hasArtists",
+                            "value": "spotify:artist:5XGkLMcwitYFdwroktQs7o,spotify:artist:1HX9uYVwH6HHGyE8xSgtUD,spotify:artist:4E2rKHVDssGJm2SCDOMMJB,spotify:artist:3ebS2RuCq8QeLyndUDmgB5,spotify:artist:5bQ3wFgekuIMIcWJuxkqLK"
+                          },
+                          {
+                            "key": "autoplay",
+                            "value": "spotify:playlist:37i9dQZF1DWTnbCPOmjbdB"
+                          },
+                          {
+                            "key": "header_image_url_desktop",
+                            "value": "https://i.scdn.co/image/ab6768640000fe8911dbb214b03dfddf50f70358"
+                          },
+                          {
+                            "key": "image_url",
+                            "value": "https://i.scdn.co/image/ab67686d00003ae070f4eed6509305956d106371"
+                          },
+                          {
+                            "key": "episode_description",
+                            "value": "50 najgorętszych hitów w Polsce. Cover: Vito Bambino, Daniel Godson"
+                          },
+                          {
+                            "key": "is_video_first",
+                            "value": "false"
+                          },
+                          {
+                            "key": "correlation-id",
+                            "value": "ssp~06316898fa474d652bddb58d0a2b514d41d3"
+                          }
+                        ],
+                        "description": "50 najgorętszych hitów w Polsce. Cover: Vito Bambino, Daniel Godson",
+                        "format": "format-shows-shuffle",
+                        "images": {
+                          "items": [
+                            {
+                              "extractedColors": {
+                                "colorDark": {
+                                  "hex": "#A86058",
+                                  "isFallback": false
+                                }
+                              },
+                              "sources": [
+                                {
+                                  "height": null,
+                                  "url": "https://i.scdn.co/image/ab67706f0000000238b0203375e5ab2a10d93e0b",
+                                  "width": null
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "name": "Hot Hits Polska",
+                        "ownerV2": {
+                          "data": {
+                            "__typename": "User",
+                            "name": "Spotify",
+                            "uri": "spotify:user:spotify"
+                          }
+                        },
+                        "uri": "spotify:playlist:37i9dQZF1DX49bSMRljsho"
+                      }
+                    },
+                    "uri": "spotify:playlist:37i9dQZF1DX49bSMRljsho"
+                  },
+                  {
+                    "data": {
+                      "__typename": "HomeRecsItemData"
+                    },
+                    "content": {
+                      "__typename": "PlaylistResponseWrapper",
+                      "data": {
+                        "__typename": "Playlist",
+                        "attributes": [
+                          {
+                            "key": "request_id",
+                            "value": "ssp~06316899a8be9c95850d21bfd6bb78eb25c2"
+                          },
+                          {
+                            "key": "uri",
+                            "value": "spotify:user:spotify:playlist:37i9dQZF1DX35mEXECRn6o"
+                          },
+                          {
+                            "key": "status",
+                            "value": "PUBLISHED"
+                          },
+                          {
+                            "key": "isAlgotorial",
+                            "value": "false"
+                          },
+                          {
+                            "key": "primary_color",
+                            "value": "#3ffc04"
+                          },
+                          {
+                            "key": "recs.hasArtists",
+                            "value": "spotify:artist:0zzP72k8pbLySGH1TPUZW8,spotify:artist:1efYxTvCNTpqYqfiEsxawq,spotify:artist:6DAQjwwMGZ9QgqHhIkU7H0,spotify:artist:4zvO09rVUIVTeALhs6xLoB,spotify:artist:1Kjs5u8GQf6zCFdTj6SI9E"
+                          },
+                          {
+                            "key": "autoplay",
+                            "value": "spotify:playlist:37i9dQZF1DWXJnyndhASBe"
+                          },
+                          {
+                            "key": "header_image_url_desktop",
+                            "value": "https://i.scdn.co/image/ab6768640000fe890f3d2163534b45b4d8fefc35"
+                          },
+                          {
+                            "key": "image_url",
+                            "value": "https://i.scdn.co/image/ab67686d00003ae08dcc9b836fa1c85558c262c3"
+                          },
+                          {
+                            "key": "episode_description",
+                            "value": "WOW WOW 🍑 Cover: Fagata"
+                          },
+                          {
+                            "key": "is_video_first",
+                            "value": "false"
+                          },
+                          {
+                            "key": "correlation-id",
+                            "value": "ssp~06316899a8be9c95850d21bfd6bb78eb25c2"
+                          }
+                        ],
+                        "description": "WOW WOW 🍑 Cover: Fagata",
+                        "format": "format-shows-shuffle",
+                        "images": {
+                          "items": [
+                            {
+                              "extractedColors": {
+                                "colorDark": {
+                                  "hex": "#AD5D7C",
+                                  "isFallback": false
+                                }
+                              },
+                              "sources": [
+                                {
+                                  "height": null,
+                                  "url": "https://i.scdn.co/image/ab67706f0000000293fe579fabfac35c1b140f69",
+                                  "width": null
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "name": "viral rap",
+                        "ownerV2": {
+                          "data": {
+                            "__typename": "User",
+                            "name": "Spotify",
+                            "uri": "spotify:user:spotify"
+                          }
+                        },
+                        "uri": "spotify:playlist:37i9dQZF1DX35mEXECRn6o"
+                      }
+                    },
+                    "uri": "spotify:playlist:37i9dQZF1DX35mEXECRn6o"
+                  },
+                  {
+                    "data": {
+                      "__typename": "HomeRecsItemData"
+                    },
+                    "content": {
+                      "__typename": "PlaylistResponseWrapper",
+                      "data": {
+                        "__typename": "Playlist",
+                        "attributes": [
+                          {
+                            "key": "request_id",
+                            "value": "ssp~06316899c8297173220b3f69259efdbff3dc"
+                          },
+                          {
+                            "key": "uri",
+                            "value": "spotify:user:spotify:playlist:37i9dQZF1DWYxW9251gTHk"
+                          },
+                          {
+                            "key": "status",
+                            "value": "PUBLISHED"
+                          },
+                          {
+                            "key": "isAlgotorial",
+                            "value": "false"
+                          },
+                          {
+                            "key": "primary_color",
+                            "value": "#ffffff"
+                          },
+                          {
+                            "key": "recs.hasArtists",
+                            "value": "spotify:artist:5NpwJ9XcZH35RxF2PUIqs2,spotify:artist:0FmrSPKiEMz1z3keVarkw1,spotify:artist:0zzP72k8pbLySGH1TPUZW8,spotify:artist:2ER2H5ZCb6dRBZmYXdtb86,spotify:artist:2tg8M5no3GJwNf0XBq4tcY"
+                          },
+                          {
+                            "key": "header_image_url_desktop",
+                            "value": "https://i.scdn.co/image/ab6768640000fe8945180af9b2cf8b34ea8c537e"
+                          },
+                          {
+                            "key": "image_url",
+                            "value": "https://i.scdn.co/image/ab67686d00003ae02264399fa0f138f70748a49c"
+                          },
+                          {
+                            "key": "episode_description",
+                            "value": "Najlepsze muzyczne dropy od polskich gwiazd internetu. Cover: Agata Świderska"
+                          },
+                          {
+                            "key": "is_video_first",
+                            "value": "false"
+                          },
+                          {
+                            "key": "correlation-id",
+                            "value": "ssp~06316899c8297173220b3f69259efdbff3dc"
+                          }
+                        ],
+                        "description": "Najlepsze muzyczne dropy od polskich gwiazd internetu. Cover: Agata Świderska",
+                        "format": "format-shows-shuffle",
+                        "images": {
+                          "items": [
+                            {
+                              "extractedColors": {
+                                "colorDark": {
+                                  "hex": "#A830F0",
+                                  "isFallback": false
+                                }
+                              },
+                              "sources": [
+                                {
+                                  "height": null,
+                                  "url": "https://i.scdn.co/image/ab67706f00000002d8b51740ab51da5d60216ef4",
+                                  "width": null
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "name": "NA TOPIE",
+                        "ownerV2": {
+                          "data": {
+                            "__typename": "User",
+                            "name": "Spotify",
+                            "uri": "spotify:user:spotify"
+                          }
+                        },
+                        "uri": "spotify:playlist:37i9dQZF1DWYxW9251gTHk"
+                      }
+                    },
+                    "uri": "spotify:playlist:37i9dQZF1DWYxW9251gTHk"
+                  },
+                  {
+                    "data": {
+                      "__typename": "HomeRecsItemData"
+                    },
+                    "content": {
+                      "__typename": "PlaylistResponseWrapper",
+                      "data": {
+                        "__typename": "Playlist",
+                        "attributes": [
+                          {
+                            "key": "request_id",
+                            "value": "ssp~063168997f04179e70e5f308d95d6dc84cfc"
+                          },
+                          {
+                            "key": "uri",
+                            "value": "spotify:user:spotify:playlist:37i9dQZF1DWXJnyndhASBe"
+                          },
+                          {
+                            "key": "status",
+                            "value": "PUBLISHED"
+                          },
+                          {
+                            "key": "isAlgotorial",
+                            "value": "false"
+                          },
+                          {
+                            "key": "primary_color",
+                            "value": "#ffffff"
+                          },
+                          {
+                            "key": "recs.hasArtists",
+                            "value": "spotify:artist:1Kjs5u8GQf6zCFdTj6SI9E,spotify:artist:43yekIowVCHkR6TGGg9gSp,spotify:artist:28WXX79U4jzq1kfjx5QXPy,spotify:artist:2FtYzWBUVhZ2vfy8S207Zf,spotify:artist:0QR764k0D36npmTMWx5bft"
+                          },
+                          {
+                            "key": "autoplay",
+                            "value": "spotify:playlist:37i9dQZF1DXb7Dien4aIZC"
+                          },
+                          {
+                            "key": "header_image_url_desktop",
+                            "value": "https://i.scdn.co/image/ab6768640000fe89190dc1b35ac82d3c5471511a"
+                          },
+                          {
+                            "key": "image_url",
+                            "value": "https://i.scdn.co/image/ab67686d00003ae09894a3aef206751af9b63649"
+                          },
+                          {
+                            "key": "episode_description",
+                            "value": "Największe rapowe kawałki w tej chwili. Cover: Malik Montana"
+                          },
+                          {
+                            "key": "is_video_first",
+                            "value": "false"
+                          },
+                          {
+                            "key": "correlation-id",
+                            "value": "ssp~063168997f04179e70e5f308d95d6dc84cfc"
+                          }
+                        ],
+                        "description": "Największe rapowe kawałki w tej chwili. Cover: Malik Montana",
+                        "format": "format-shows-shuffle",
+                        "images": {
+                          "items": [
+                            {
+                              "extractedColors": {
+                                "colorDark": {
+                                  "hex": "#857815",
+                                  "isFallback": false
+                                }
+                              },
+                              "sources": [
+                                {
+                                  "height": null,
+                                  "url": "https://i.scdn.co/image/ab67706f00000002ec6504557d33558d230b925d",
+                                  "width": null
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "name": "RAP GENERACJA",
+                        "ownerV2": {
+                          "data": {
+                            "__typename": "User",
+                            "name": "Spotify",
+                            "uri": "spotify:user:spotify"
+                          }
+                        },
+                        "uri": "spotify:playlist:37i9dQZF1DWXJnyndhASBe"
+                      }
+                    },
+                    "uri": "spotify:playlist:37i9dQZF1DWXJnyndhASBe"
+                  },
+                  {
+                    "data": {
+                      "__typename": "HomeRecsItemData"
+                    },
+                    "content": {
+                      "__typename": "PlaylistResponseWrapper",
+                      "data": {
+                        "__typename": "Playlist",
+                        "attributes": [
+                          {
+                            "key": "request_id",
+                            "value": "ssp~063168998b1552e1728f2b3b60dc5935871b"
+                          },
+                          {
+                            "key": "uri",
+                            "value": "spotify:user:spotify:playlist:37i9dQZF1DWXz9uZQKizRS"
+                          },
+                          {
+                            "key": "status",
+                            "value": "PUBLISHED"
+                          },
+                          {
+                            "key": "isAlgotorial",
+                            "value": "false"
+                          },
+                          {
+                            "key": "primary_color",
+                            "value": "#ffffff"
+                          },
+                          {
+                            "key": "recs.hasArtists",
+                            "value": "spotify:artist:6Sw43ZkxX0u3t4cjxlzbzs,spotify:artist:5KTMtd3GnDdcWnwxcEBwKX,spotify:artist:19lOxXnatl3J8HHKIqHoqx,spotify:artist:2jNxbYSRQ7pkrxVuOjES7n,spotify:artist:1PU2QmArAkuOgEXXRJhYl0"
+                          },
+                          {
+                            "key": "autoplay",
+                            "value": "spotify:playlist:37i9dQZF1DWTAMSh8IEIUc"
+                          },
+                          {
+                            "key": "header_image_url_desktop",
+                            "value": "https://i.scdn.co/image/ab6768640000fe8946068efac94a7756dc3f2b7d"
+                          },
+                          {
+                            "key": "image_url",
+                            "value": "https://i.scdn.co/image/ab67686d00003ae0b4099a78f9abb97f178c26be"
+                          },
+                          {
+                            "key": "episode_description",
+                            "value": "Najlepsza świeża polska alternatywa. Cover: PAULA ROMA, Kathia"
+                          },
+                          {
+                            "key": "is_video_first",
+                            "value": "false"
+                          },
+                          {
+                            "key": "correlation-id",
+                            "value": "ssp~063168998b1552e1728f2b3b60dc5935871b"
+                          }
+                        ],
+                        "description": "Najlepsza świeża polska alternatywa. Cover: PAULA ROMA, Kathia",
+                        "format": "format-shows-shuffle",
+                        "images": {
+                          "items": [
+                            {
+                              "extractedColors": {
+                                "colorDark": {
+                                  "hex": "#900800",
+                                  "isFallback": false
+                                }
+                              },
+                              "sources": [
+                                {
+                                  "height": null,
+                                  "url": "https://i.scdn.co/image/ab67706f000000023e865b92f771599ff41fab99",
+                                  "width": null
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "name": "Alternatywna Polska",
+                        "ownerV2": {
+                          "data": {
+                            "__typename": "User",
+                            "name": "Spotify",
+                            "uri": "spotify:user:spotify"
+                          }
+                        },
+                        "uri": "spotify:playlist:37i9dQZF1DWXz9uZQKizRS"
+                      }
+                    },
+                    "uri": "spotify:playlist:37i9dQZF1DWXz9uZQKizRS"
+                  },
+                  {
+                    "data": {
+                      "__typename": "HomeRecsItemData"
+                    },
+                    "content": {
+                      "__typename": "PlaylistResponseWrapper",
+                      "data": {
+                        "__typename": "Playlist",
+                        "attributes": [
+                          {
+                            "key": "request_id",
+                            "value": "ssp~06316813c092a830dae5f6534599c48653f8"
+                          },
+                          {
+                            "key": "uri",
+                            "value": "spotify:user:spotify:playlist:37i9dQZF1DWSWubjQuAKF1"
+                          },
+                          {
+                            "key": "status",
+                            "value": "PUBLISHED"
+                          },
+                          {
+                            "key": "isAlgotorial",
+                            "value": "true"
+                          },
+                          {
+                            "key": "primary_color",
+                            "value": "#ffffff"
+                          },
+                          {
+                            "key": "header_image_url_desktop",
+                            "value": "https://i.scdn.co/image/ab6768640000fe89364b67e75cf3a75b52698911"
+                          },
+                          {
+                            "key": "image_url",
+                            "value": "https://i.scdn.co/image/ab67686d00003ae06fab998bf9f61a1fc2ec1ff1"
+                          },
+                          {
+                            "key": "episode_description",
+                            "value": "świeże brzmienia na horyzoncie ✨ Cover: IKARVS"
+                          },
+                          {
+                            "key": "madeFor.username",
+                            "value": "31ukn7n6u3d2zmy6wunja4ba3rd4"
+                          },
+                          {
+                            "key": "is_video_first",
+                            "value": "false"
+                          },
+                          {
+                            "key": "correlation-id",
+                            "value": "ssp~06316813c092a830dae5f6534599c48653f8"
+                          }
+                        ],
+                        "description": "świeże brzmienia na horyzoncie ✨ Cover: IKARVS",
+                        "format": "format-shows-shuffle",
+                        "images": {
+                          "items": [
+                            {
+                              "extractedColors": {
+                                "colorDark": {
+                                  "hex": "#727872",
+                                  "isFallback": false
+                                }
+                              },
+                              "sources": [
+                                {
+                                  "height": null,
+                                  "url": "https://i.scdn.co/image/ab67706f000000024cf7f74a8f660145ba879c43",
+                                  "width": null
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "name": "up next",
+                        "ownerV2": {
+                          "data": {
+                            "__typename": "User",
+                            "name": "Spotify",
+                            "uri": "spotify:user:spotify"
+                          }
+                        },
+                        "uri": "spotify:playlist:37i9dQZF1DWSWubjQuAKF1"
+                      }
+                    },
+                    "uri": "spotify:playlist:37i9dQZF1DWSWubjQuAKF1"
+                  }
+                ],
+                "pagingInfo": {
+                  "nextOffset": 0
+                },
+                "totalCount": 31
+              },
+              "uri": "spotify:section:0JQ5DAuChZYPe9iDhh2mJz"
+            },
+            {
+              "data": {
+                "__typename": "HomeRecentlyPlayedSectionData",
+                "headerEntity": {
+                  "__typename": "UnknownType"
+                },
+                "title": {
+                  "transformedLabel": "Recently played",
+                  "translatedBaseText": "Recently played"
+                }
+              },
+              "sectionItems": {
+                "items": [
+                  {
+                    "data": {
+                      "__typename": "HomeRecsItemData"
+                    },
+                    "content": {
+                      "__typename": "PlaylistResponseWrapper",
+                      "data": {
+                        "__typename": "Playlist",
+                        "attributes": [
+                          {
+                            "key": "request_id",
+                            "value": "ssp~06316813c092a830dae5f6534599c48653f8"
+                          },
+                          {
+                            "key": "uri",
+                            "value": "spotify:user:spotify:playlist:37i9dQZF1DXdPec7aLTmlC"
+                          },
+                          {
+                            "key": "status",
+                            "value": "PUBLISHED"
+                          },
+                          {
+                            "key": "isAlgotorial",
+                            "value": "true"
+                          },
+                          {
+                            "key": "moveFollowersJobId",
+                            "value": "7027488c-65e0-43ec-9d16-c175e57731f1"
+                          },
+                          {
+                            "key": "primary_color",
+                            "value": "#ffffff"
+                          },
+                          {
+                            "key": "autoplay",
+                            "value": "spotify:playlist:37i9dQZF1DX843Qf4lrFtZ"
+                          },
+                          {
+                            "key": "madeFor.username",
+                            "value": "31ukn7n6u3d2zmy6wunja4ba3rd4"
+                          },
+                          {
+                            "key": "is_video_first",
+                            "value": "false"
+                          },
+                          {
+                            "key": "correlation-id",
+                            "value": "ssp~06316813c092a830dae5f6534599c48653f8"
+                          }
+                        ],
+                        "description": "Hits to boost your mood and fill you with happiness!",
+                        "format": "editorial",
+                        "images": {
+                          "items": [
+                            {
+                              "extractedColors": {
+                                "colorDark": {
+                                  "hex": "#3D7AB7",
+                                  "isFallback": false
+                                }
+                              },
+                              "sources": [
+                                {
+                                  "height": null,
+                                  "url": "https://i.scdn.co/image/ab67706f00000002a46ea55285180036c5e8f196",
+                                  "width": null
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "name": "Happy Hits!",
+                        "ownerV2": {
+                          "data": {
+                            "__typename": "User",
+                            "name": "Spotify",
+                            "uri": "spotify:user:spotify"
+                          }
+                        },
+                        "uri": "spotify:playlist:37i9dQZF1DXdPec7aLTmlC"
+                      }
+                    },
+                    "uri": "spotify:playlist:37i9dQZF1DXdPec7aLTmlC"
+                  }
+                ],
+                "pagingInfo": {
+                  "nextOffset": null
+                },
+                "totalCount": 1
+              },
+              "uri": "spotify:section:0JQ5DAroEmF9ANbLaiJ7Wx"
+            },
+            {
+              "data": {
+                "__typename": "HomeGenericSectionData",
+                "headerEntity": {
+                  "__typename": "UnknownType"
+                },
+                "subtitle": {
+                  "transformedLabel": "",
+                  "translatedBaseText": null
+                },
+                "title": {
+                  "transformedLabel": "Featured Charts",
+                  "translatedBaseText": "Featured Charts"
+                }
+              },
+              "sectionItems": {
+                "items": [
+                  {
+                    "data": null,
+                    "content": {
+                      "__typename": "PlaylistResponseWrapper",
+                      "data": {
+                        "__typename": "Playlist",
+                        "attributes": [
+                          {
+                            "key": "last_updated",
+                            "value": "2025-03-28T14:46:34Z"
+                          },
+                          {
+                            "key": "rank_type",
+                            "value": "plays"
+                          },
+                          {
+                            "key": "new_entries_count",
+                            "value": "5"
+                          },
+                          {
+                            "key": "chart_entity_type",
+                            "value": "track"
+                          }
+                        ],
+                        "description": "Your daily update of the most played tracks right now - Poland.",
+                        "format": "chart",
+                        "images": {
+                          "items": [
+                            {
+                              "extractedColors": {
+                                "colorDark": {
+                                  "hex": "#DC392B",
+                                  "isFallback": false
+                                }
+                              },
+                              "sources": [
+                                {
+                                  "height": null,
+                                  "url": "https://charts-images.scdn.co/assets/locale_en/regional/daily/region_pl_default.jpg",
+                                  "width": null
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "name": "Top 50 - Poland",
+                        "ownerV2": {
+                          "data": {
+                            "__typename": "User",
+                            "name": "Spotify",
+                            "uri": "spotify:user:spotify"
+                          }
+                        },
+                        "uri": "spotify:playlist:37i9dQZEVXbN6itCcaL3Tt"
+                      }
+                    },
+                    "uri": "spotify:playlist:37i9dQZEVXbN6itCcaL3Tt"
+                  },
+                  {
+                    "data": null,
+                    "content": {
+                      "__typename": "PlaylistResponseWrapper",
+                      "data": {
+                        "__typename": "Playlist",
+                        "attributes": [
+                          {
+                            "key": "last_updated",
+                            "value": "2025-03-28T14:55:47Z"
+                          },
+                          {
+                            "key": "rank_type",
+                            "value": "plays"
+                          },
+                          {
+                            "key": "new_entries_count",
+                            "value": "18"
+                          },
+                          {
+                            "key": "chart_entity_type",
+                            "value": "track"
+                          }
+                        ],
+                        "description": "Your weekly update of the most played tracks right now - Poland.",
+                        "format": "chart",
+                        "images": {
+                          "items": [
+                            {
+                              "extractedColors": {
+                                "colorDark": {
+                                  "hex": "#E81830",
+                                  "isFallback": false
+                                }
+                              },
+                              "sources": [
+                                {
+                                  "height": null,
+                                  "url": "https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_pl_default.jpg",
+                                  "width": null
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "name": "Top Songs - Poland",
+                        "ownerV2": {
+                          "data": {
+                            "__typename": "User",
+                            "name": "Spotify",
+                            "uri": "spotify:user:spotify"
+                          }
+                        },
+                        "uri": "spotify:playlist:37i9dQZEVXbMZ5PAcNTDXd"
+                      }
+                    },
+                    "uri": "spotify:playlist:37i9dQZEVXbMZ5PAcNTDXd"
+                  },
+                  {
+                    "data": null,
+                    "content": {
+                      "__typename": "PlaylistResponseWrapper",
+                      "data": {
+                        "__typename": "Playlist",
+                        "attributes": [
+                          {
+                            "key": "last_updated",
+                            "value": "2025-03-28T14:46:24Z"
+                          },
+                          {
+                            "key": "rank_type",
+                            "value": "plays"
+                          },
+                          {
+                            "key": "new_entries_count",
+                            "value": "2"
+                          },
+                          {
+                            "key": "chart_entity_type",
+                            "value": "track"
+                          }
+                        ],
+                        "description": "Your daily update of the most played tracks right now - Global.",
+                        "format": "chart",
+                        "images": {
+                          "items": [
+                            {
+                              "extractedColors": {
+                                "colorDark": {
+                                  "hex": "#183860",
+                                  "isFallback": false
+                                }
+                              },
+                              "sources": [
+                                {
+                                  "height": null,
+                                  "url": "https://charts-images.scdn.co/assets/locale_en/regional/daily/region_global_default.jpg",
+                                  "width": null
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "name": "Top 50 - Global",
+                        "ownerV2": {
+                          "data": {
+                            "__typename": "User",
+                            "name": "Spotify",
+                            "uri": "spotify:user:spotify"
+                          }
+                        },
+                        "uri": "spotify:playlist:37i9dQZEVXbMDoHDwVN2tF"
+                      }
+                    },
+                    "uri": "spotify:playlist:37i9dQZEVXbMDoHDwVN2tF"
+                  },
+                  {
+                    "data": null,
+                    "content": {
+                      "__typename": "PlaylistResponseWrapper",
+                      "data": {
+                        "__typename": "Playlist",
+                        "attributes": [
+                          {
+                            "key": "last_updated",
+                            "value": "2025-03-27T21:24:21Z"
+                          },
+                          {
+                            "key": "rank_type",
+                            "value": "virality"
+                          },
+                          {
+                            "key": "new_entries_count",
+                            "value": "3"
+                          },
+                          {
+                            "key": "chart_entity_type",
+                            "value": "track"
+                          }
+                        ],
+                        "description": "Your daily update of the most viral tracks right now - Poland.",
+                        "format": "chart",
+                        "images": {
+                          "items": [
+                            {
+                              "extractedColors": {
+                                "colorDark": {
+                                  "hex": "#D82838",
+                                  "isFallback": false
+                                }
+                              },
+                              "sources": [
+                                {
+                                  "height": null,
+                                  "url": "https://charts-images.scdn.co/assets/locale_en/viral/daily/region_pl_default.jpg",
+                                  "width": null
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "name": "Viral 50 - Poland",
+                        "ownerV2": {
+                          "data": {
+                            "__typename": "User",
+                            "name": "Spotify",
+                            "uri": "spotify:user:spotify"
+                          }
+                        },
+                        "uri": "spotify:playlist:37i9dQZEVXbNGGDnE9UFTF"
+                      }
+                    },
+                    "uri": "spotify:playlist:37i9dQZEVXbNGGDnE9UFTF"
+                  },
+                  {
+                    "data": null,
+                    "content": {
+                      "__typename": "PlaylistResponseWrapper",
+                      "data": {
+                        "__typename": "Playlist",
+                        "attributes": [
+                          {
+                            "key": "last_updated",
+                            "value": "2025-03-28T14:55:50Z"
+                          },
+                          {
+                            "key": "rank_type",
+                            "value": "plays"
+                          },
+                          {
+                            "key": "new_entries_count",
+                            "value": "12"
+                          },
+                          {
+                            "key": "chart_entity_type",
+                            "value": "track"
+                          }
+                        ],
+                        "description": "Your weekly update of the most played tracks right now - Global.",
+                        "format": "chart",
+                        "images": {
+                          "items": [
+                            {
+                              "extractedColors": {
+                                "colorDark": {
+                                  "hex": "#703090",
+                                  "isFallback": false
+                                }
+                              },
+                              "sources": [
+                                {
+                                  "height": null,
+                                  "url": "https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_global_default.jpg",
+                                  "width": null
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "name": "Top Songs - Global",
+                        "ownerV2": {
+                          "data": {
+                            "__typename": "User",
+                            "name": "Spotify",
+                            "uri": "spotify:user:spotify"
+                          }
+                        },
+                        "uri": "spotify:playlist:37i9dQZEVXbNG2KDcFcKOF"
+                      }
+                    },
+                    "uri": "spotify:playlist:37i9dQZEVXbNG2KDcFcKOF"
+                  },
+                  {
+                    "data": null,
+                    "content": {
+                      "__typename": "PlaylistResponseWrapper",
+                      "data": {
+                        "__typename": "Playlist",
+                        "attributes": [
+                          {
+                            "key": "last_updated",
+                            "value": "2025-03-27T21:24:21Z"
+                          },
+                          {
+                            "key": "rank_type",
+                            "value": "virality"
+                          },
+                          {
+                            "key": "new_entries_count",
+                            "value": "2"
+                          },
+                          {
+                            "key": "chart_entity_type",
+                            "value": "track"
+                          }
+                        ],
+                        "description": "Your daily update of the most viral tracks right now - Global.",
+                        "format": "chart",
+                        "images": {
+                          "items": [
+                            {
+                              "extractedColors": {
+                                "colorDark": {
+                                  "hex": "#1B8857",
+                                  "isFallback": false
+                                }
+                              },
+                              "sources": [
+                                {
+                                  "height": null,
+                                  "url": "https://charts-images.scdn.co/assets/locale_en/viral/daily/region_global_default.jpg",
+                                  "width": null
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "name": "Viral 50 - Global",
+                        "ownerV2": {
+                          "data": {
+                            "__typename": "User",
+                            "name": "Spotify",
+                            "uri": "spotify:user:spotify"
+                          }
+                        },
+                        "uri": "spotify:playlist:37i9dQZEVXbLiRSasKsNU9"
+                      }
+                    },
+                    "uri": "spotify:playlist:37i9dQZEVXbLiRSasKsNU9"
+                  }
+                ],
+                "pagingInfo": {
+                  "nextOffset": null
+                },
+                "totalCount": 6
+              },
+              "uri": "spotify:section:0JQ5DAzQHECxDlYNI6xD1g"
+            },
+            {
+              "data": {
+                "__typename": "HomeYourDJSectionData",
+                "headerEntity": {
+                  "__typename": "UnknownType"
+                },
+                "title": {
+                  "transformedLabel": "Meet DJ",
+                  "translatedBaseText": "Meet DJ"
+                }
+              },
+              "sectionItems": {
+                "items": [
+                  {
+                    "data": null,
+                    "content": {
+                      "__typename": "PlaylistResponseWrapper",
+                      "data": {
+                        "__typename": "NotFound"
+                      }
+                    },
+                    "uri": "spotify:playlist:37i9dQZF1EYkqdzj48dyYq"
+                  }
+                ],
+                "pagingInfo": {
+                  "nextOffset": null
+                },
+                "totalCount": 1
+              },
+              "uri": "spotify:section:0JQ5DAVAaDNAlq7hOF3StH"
+            },
+            {
+              "data": {
+                "__typename": "HomeOnboardingSectionDataV2"
+              },
+              "sectionItems": {
+                "items": [
+                  {
+                    "data": {
+                      "__typename": "HomeOnboardingBannerButtonData"
+                    },
+                    "content": {
+                      "__typename": "UnknownType",
+                      "uri": "spotify:link:0is72syjeis6hJ1uwuJ5uR"
+                    },
+                    "uri": "spotify:link:0is72syjeis6hJ1uwuJ5uR"
+                  },
+                  {
+                    "data": {
+                      "__typename": "HomeOnboardingBannerButtonData"
+                    },
+                    "content": {
+                      "__typename": "UnknownType",
+                      "uri": "spotify:link:0QOfHvIhoRu2NQkloCWvUD"
+                    },
+                    "uri": "spotify:link:0QOfHvIhoRu2NQkloCWvUD"
+                  }
+                ],
+                "pagingInfo": {
+                  "nextOffset": null
+                },
+                "totalCount": 0
+              },
+              "uri": "spotify:section:0JQ5DAvqcpjf8uklO17aVP"
+            },
+            {
+              "data": {
+                "__typename": "HomeGenericSectionData",
+                "headerEntity": {
+                  "__typename": "UnknownType"
+                },
+                "subtitle": {
+                  "transformedLabel": "",
+                  "translatedBaseText": null
+                },
+                "title": {
+                  "transformedLabel": "Shows to try",
+                  "translatedBaseText": "Shows to try"
+                }
+              },
+              "sectionItems": {
+                "items": [
+                  {
+                    "data": null,
+                    "content": {
+                      "__typename": "PodcastOrAudiobookResponseWrapper",
+                      "data": {
+                        "__typename": "Podcast",
+                        "coverArt": {
+                          "extractedColors": {
+                            "colorDark": {
+                              "hex": "#D4470E",
+                              "isFallback": false
+                            }
+                          },
+                          "sources": [
+                            {
+                              "height": 64,
+                              "url": "https://i.scdn.co/image/ab6765630000f68d55aae8d86c44597acc50fd0d",
+                              "width": 64
+                            },
+                            {
+                              "height": 300,
+                              "url": "https://i.scdn.co/image/ab67656300005f1f55aae8d86c44597acc50fd0d",
+                              "width": 300
+                            },
+                            {
+                              "height": 640,
+                              "url": "https://i.scdn.co/image/ab6765630000ba8a55aae8d86c44597acc50fd0d",
+                              "width": 640
+                            }
+                          ]
+                        },
+                        "mediaType": "AUDIO",
+                        "name": "Za Rubieżą. Historia i polityka",
+                        "publisher": {
+                          "name": "Miłosz Szymański"
+                        },
+                        "uri": "spotify:show:7mYVKGQdIPmuwzfH7ySUQ4"
+                      }
+                    },
+                    "uri": "spotify:show:7mYVKGQdIPmuwzfH7ySUQ4"
+                  },
+                  {
+                    "data": null,
+                    "content": {
+                      "__typename": "PodcastOrAudiobookResponseWrapper",
+                      "data": {
+                        "__typename": "Podcast",
+                        "coverArt": {
+                          "extractedColors": {
+                            "colorDark": {
+                              "hex": "#8C7171",
+                              "isFallback": false
+                            }
+                          },
+                          "sources": [
+                            {
+                              "height": 64,
+                              "url": "https://i.scdn.co/image/ab6765630000f68d4a3d3a0d7335c3f2faea5363",
+                              "width": 64
+                            },
+                            {
+                              "height": 300,
+                              "url": "https://i.scdn.co/image/ab67656300005f1f4a3d3a0d7335c3f2faea5363",
+                              "width": 300
+                            },
+                            {
+                              "height": 640,
+                              "url": "https://i.scdn.co/image/ab6765630000ba8a4a3d3a0d7335c3f2faea5363",
+                              "width": 640
+                            }
+                          ]
+                        },
+                        "mediaType": "MIXED",
+                        "name": "POP Science",
+                        "publisher": {
+                          "name": "Astrofaza"
+                        },
+                        "uri": "spotify:show:6jik5jtT6wjg9rghqTwzuJ"
+                      }
+                    },
+                    "uri": "spotify:show:6jik5jtT6wjg9rghqTwzuJ"
+                  },
+                  {
+                    "data": null,
+                    "content": {
+                      "__typename": "PodcastOrAudiobookResponseWrapper",
+                      "data": {
+                        "__typename": "Podcast",
+                        "coverArt": {
+                          "extractedColors": {
+                            "colorDark": {
+                              "hex": "#782020",
+                              "isFallback": false
+                            }
+                          },
+                          "sources": [
+                            {
+                              "height": 64,
+                              "url": "https://i.scdn.co/image/ab6765630000f68d0743a2de8c22a2068eb75220",
+                              "width": 64
+                            },
+                            {
+                              "height": 300,
+                              "url": "https://i.scdn.co/image/ab67656300005f1f0743a2de8c22a2068eb75220",
+                              "width": 300
+                            },
+                            {
+                              "height": 640,
+                              "url": "https://i.scdn.co/image/ab6765630000ba8a0743a2de8c22a2068eb75220",
+                              "width": 640
+                            }
+                          ]
+                        },
+                        "mediaType": "AUDIO",
+                        "name": "Lepszy Klimat",
+                        "publisher": {
+                          "name": "Paulina Górska"
+                        },
+                        "uri": "spotify:show:5IvMpzuBWnHD7f2OHHm3uD"
+                      }
+                    },
+                    "uri": "spotify:show:5IvMpzuBWnHD7f2OHHm3uD"
+                  },
+                  {
+                    "data": null,
+                    "content": {
+                      "__typename": "PodcastOrAudiobookResponseWrapper",
+                      "data": {
+                        "__typename": "Podcast",
+                        "coverArt": {
+                          "extractedColors": {
+                            "colorDark": {
+                              "hex": "#086098",
+                              "isFallback": false
+                            }
+                          },
+                          "sources": [
+                            {
+                              "height": 64,
+                              "url": "https://i.scdn.co/image/ab6765630000f68dd88e9b9b24d5e2bff70895ca",
+                              "width": 64
+                            },
+                            {
+                              "height": 300,
+                              "url": "https://i.scdn.co/image/ab67656300005f1fd88e9b9b24d5e2bff70895ca",
+                              "width": 300
+                            },
+                            {
+                              "height": 640,
+                              "url": "https://i.scdn.co/image/ab6765630000ba8ad88e9b9b24d5e2bff70895ca",
+                              "width": 640
+                            }
+                          ]
+                        },
+                        "mediaType": "MIXED",
+                        "name": "banał",
+                        "publisher": {
+                          "name": "Piotr Białasiewicz"
+                        },
+                        "uri": "spotify:show:4OoogEWzgHDgWHk7IFr16R"
+                      }
+                    },
+                    "uri": "spotify:show:4OoogEWzgHDgWHk7IFr16R"
+                  },
+                  {
+                    "data": null,
+                    "content": {
+                      "__typename": "PodcastOrAudiobookResponseWrapper",
+                      "data": {
+                        "__typename": "Podcast",
+                        "coverArt": {
+                          "extractedColors": {
+                            "colorDark": {
+                              "hex": "#535353",
+                              "isFallback": true
+                            }
+                          },
+                          "sources": [
+                            {
+                              "height": 64,
+                              "url": "https://i.scdn.co/image/ab6765630000f68d86825f1a903b9d35c2051e27",
+                              "width": 64
+                            },
+                            {
+                              "height": 300,
+                              "url": "https://i.scdn.co/image/ab67656300005f1f86825f1a903b9d35c2051e27",
+                              "width": 300
+                            },
+                            {
+                              "height": 640,
+                              "url": "https://i.scdn.co/image/ab6765630000ba8a86825f1a903b9d35c2051e27",
+                              "width": 640
+                            }
+                          ]
+                        },
+                        "mediaType": "MIXED",
+                        "name": "Bardzo straszny podcast",
+                        "publisher": {
+                          "name": "Bardzo straszny podcast"
+                        },
+                        "uri": "spotify:show:6HPASjWQQq0319AHJsWQOp"
+                      }
+                    },
+                    "uri": "spotify:show:6HPASjWQQq0319AHJsWQOp"
+                  },
+                  {
+                    "data": null,
+                    "content": {
+                      "__typename": "PodcastOrAudiobookResponseWrapper",
+                      "data": {
+                        "__typename": "Podcast",
+                        "coverArt": {
+                          "extractedColors": {
+                            "colorDark": {
+                              "hex": "#067FB0",
+                              "isFallback": false
+                            }
+                          },
+                          "sources": [
+                            {
+                              "height": 64,
+                              "url": "https://i.scdn.co/image/ab6765630000f68daa4830256e4b613f07287208",
+                              "width": 64
+                            },
+                            {
+                              "height": 300,
+                              "url": "https://i.scdn.co/image/ab67656300005f1faa4830256e4b613f07287208",
+                              "width": 300
+                            },
+                            {
+                              "height": 640,
+                              "url": "https://i.scdn.co/image/ab6765630000ba8aaa4830256e4b613f07287208",
+                              "width": 640
+                            }
+                          ]
+                        },
+                        "mediaType": "AUDIO",
+                        "name": "Huberman Lab",
+                        "publisher": {
+                          "name": "Scicomm Media"
+                        },
+                        "uri": "spotify:show:79CkJF3UJTHFV8Dse3Oy0P"
+                      }
+                    },
+                    "uri": "spotify:show:79CkJF3UJTHFV8Dse3Oy0P"
+                  },
+                  {
+                    "data": null,
+                    "content": {
+                      "__typename": "PodcastOrAudiobookResponseWrapper",
+                      "data": {
+                        "__typename": "Podcast",
+                        "coverArt": {
+                          "extractedColors": {
+                            "colorDark": {
+                              "hex": "#7A7575",
+                              "isFallback": false
+                            }
+                          },
+                          "sources": [
+                            {
+                              "height": 64,
+                              "url": "https://i.scdn.co/image/ab6765630000f68db3db89348723c54f7b42bee7",
+                              "width": 64
+                            },
+                            {
+                              "height": 300,
+                              "url": "https://i.scdn.co/image/ab67656300005f1fb3db89348723c54f7b42bee7",
+                              "width": 300
+                            },
+                            {
+                              "height": 640,
+                              "url": "https://i.scdn.co/image/ab6765630000ba8ab3db89348723c54f7b42bee7",
+                              "width": 640
+                            }
+                          ]
+                        },
+                        "mediaType": "MIXED",
+                        "name": "RozgrzEFka",
+                        "publisher": {
+                          "name": "Ekipa Fantasy"
+                        },
+                        "uri": "spotify:show:49ASCMN93pxV4g8zzkl8ro"
+                      }
+                    },
+                    "uri": "spotify:show:49ASCMN93pxV4g8zzkl8ro"
+                  },
+                  {
+                    "data": null,
+                    "content": {
+                      "__typename": "PodcastOrAudiobookResponseWrapper",
+                      "data": {
+                        "__typename": "Podcast",
+                        "coverArt": {
+                          "extractedColors": {
+                            "colorDark": {
+                              "hex": "#183878",
+                              "isFallback": false
+                            }
+                          },
+                          "sources": [
+                            {
+                              "height": 64,
+                              "url": "https://i.scdn.co/image/ab6765630000f68d894c5a451c312c3ded8cec03",
+                              "width": 64
+                            },
+                            {
+                              "height": 300,
+                              "url": "https://i.scdn.co/image/ab67656300005f1f894c5a451c312c3ded8cec03",
+                              "width": 300
+                            },
+                            {
+                              "height": 640,
+                              "url": "https://i.scdn.co/image/ab6765630000ba8a894c5a451c312c3ded8cec03",
+                              "width": 640
+                            }
+                          ]
+                        },
+                        "mediaType": "AUDIO",
+                        "name": "Mao Powiedziane",
+                        "publisher": {
+                          "name": "Piotr Sochoń, Weronika Truszczyńska, Nadia Urban"
+                        },
+                        "uri": "spotify:show:15QCc0oOeLUY1jfR4JydKC"
+                      }
+                    },
+                    "uri": "spotify:show:15QCc0oOeLUY1jfR4JydKC"
+                  },
+                  {
+                    "data": null,
+                    "content": {
+                      "__typename": "PodcastOrAudiobookResponseWrapper",
+                      "data": {
+                        "__typename": "Podcast",
+                        "coverArt": {
+                          "extractedColors": {
+                            "colorDark": {
+                              "hex": "#085860",
+                              "isFallback": false
+                            }
+                          },
+                          "sources": [
+                            {
+                              "height": 64,
+                              "url": "https://i.scdn.co/image/ab6765630000f68dacba792ad8d3d2c2db5999fd",
+                              "width": 64
+                            },
+                            {
+                              "height": 300,
+                              "url": "https://i.scdn.co/image/ab67656300005f1facba792ad8d3d2c2db5999fd",
+                              "width": 300
+                            },
+                            {
+                              "height": 640,
+                              "url": "https://i.scdn.co/image/ab6765630000ba8aacba792ad8d3d2c2db5999fd",
+                              "width": 640
+                            }
+                          ]
+                        },
+                        "mediaType": "MIXED",
+                        "name": "Sonder. Nieznane historie",
+                        "publisher": {
+                          "name": "Konrad Szymański"
+                        },
+                        "uri": "spotify:show:2jJGRVnZycJ6VwseuK2sgW"
+                      }
+                    },
+                    "uri": "spotify:show:2jJGRVnZycJ6VwseuK2sgW"
+                  },
+                  {
+                    "data": null,
+                    "content": {
+                      "__typename": "PodcastOrAudiobookResponseWrapper",
+                      "data": {
+                        "__typename": "Podcast",
+                        "coverArt": {
+                          "extractedColors": {
+                            "colorDark": {
+                              "hex": "#287EA6",
+                              "isFallback": false
+                            }
+                          },
+                          "sources": [
+                            {
+                              "height": 64,
+                              "url": "https://i.scdn.co/image/ab6765630000f68d9270710a672d333663c4393a",
+                              "width": 64
+                            },
+                            {
+                              "height": 300,
+                              "url": "https://i.scdn.co/image/ab67656300005f1f9270710a672d333663c4393a",
+                              "width": 300
+                            },
+                            {
+                              "height": 640,
+                              "url": "https://i.scdn.co/image/ab6765630000ba8a9270710a672d333663c4393a",
+                              "width": 640
+                            }
+                          ]
+                        },
+                        "mediaType": "AUDIO",
+                        "name": "Soundsitive Kids - Bajki dla dzieci",
+                        "publisher": {
+                          "name": "Soundsitive Studio"
+                        },
+                        "uri": "spotify:show:3lmJsz0O4TWhHFONIhtwjz"
+                      }
+                    },
+                    "uri": "spotify:show:3lmJsz0O4TWhHFONIhtwjz"
+                  }
+                ],
+                "pagingInfo": {
+                  "nextOffset": 10
+                },
+                "totalCount": 50
+              },
+              "uri": "spotify:section:0JQ5DAnM3wGh0gz1MXnu3L"
+            }
+          ],
+          "totalCount": 6
+        },
+        "uri": "spotify:page:0JQ5DAozXW0GUBAKjHsifD"
+      },
+      "homeChips": [
+        {
+          "id": "music-chip",
+          "label": {
+            "transformedLabel": "Music",
+            "translatedBaseText": "Music"
+          }
+        },
+        {
+          "id": "podcasts-chip",
+          "label": {
+            "transformedLabel": "Podcasts",
+            "translatedBaseText": "Podcasts"
+          }
+        }
+      ]
+    }
+  },
+  "extensions": {
+    "responseIds": {
+      "/home": {
+        "continuum": "047a8066-df50-0343-b240-748c6c5772c6"
+      }
+    }
+  }
+}

@@ -1,8 +1,4 @@
-import dotenv from "dotenv";
-
 import { defineConfig, devices } from "@playwright/test";
-
-dotenv.config({ path: "./.env.local" });
 
 export default defineConfig({
   testDir: "./tests",
@@ -18,37 +14,28 @@ export default defineConfig({
   reporter: "html",
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
-    /* Base URL to use in actions like `await page.goto('/')`. */
     baseURL: "https://open.spotify.com",
-
-    /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: "on-first-retry",
   },
 
-  /* Configure projects for major browsers */
   projects: [
     {
       name: "chromium",
-      use: { ...devices["Desktop Chrome"] },
+      use: { ...devices["Desktop Chrome"], viewport: { width: 1920, height: 1080 } },
     },
 
     {
       name: "firefox",
-      use: { ...devices["Desktop Firefox"] },
+      use: { ...devices["Desktop Firefox"], viewport: { width: 1920, height: 1080 } },
     },
 
     {
       name: "mobile_safari",
       use: {
         ...devices["iPhone 13 Pro"],
+        viewport: { width: 390, height: 844 },
       },
+      testIgnore: "tests/web/**",
     },
   ],
-
-  /* Run your local dev server before starting the tests */
-  // webServer: {
-  //   command: 'npm run start',
-  //   url: 'http://127.0.0.1:3000',
-  //   reuseExistingServer: !process.env.CI,
-  // },
 });
