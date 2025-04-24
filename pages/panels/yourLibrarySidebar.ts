@@ -20,7 +20,7 @@ export class YourLibrarySidebar {
     );
     this.createPlaylistButton = this.yourLibrarySidebar.locator(`button:has-text("Create")`);
     this.searchButton = this.yourLibrarySidebar.getByRole("search");
-    this.playlistsList = this.yourLibrarySidebar.getByRole("list");
+    this.playlistsList = this.yourLibrarySidebar.locator('[role="grid"], [role="list"]');
     this.contextMenu = page.getByTestId("context-menu");
     this.createPlaylistTippyBox = page.locator(".tippy-box").getByTestId("createPlaylist-hook");
   }
@@ -74,7 +74,7 @@ export class YourLibrarySidebar {
   }
 
   async clickPlaylistItem(title: string) {
-    await this.playlistsList.getByRole("listitem").filter({ hasText: title }).click();
+    await this.playlistsList.locator('[role="gridcell"], [role="listitem"]').filter({ hasText: title }).click();
   }
 
   async assertPlaylistContextMenu({ authenticated }: { authenticated: boolean }) {

@@ -1,4 +1,4 @@
-import { test as _test } from "@playwright/test";
+import { test as _test, expect } from "@playwright/test";
 import { mockHomepagePayload } from "fixtures/api/mocks";
 import { TEST_PLAYLIST } from "fixtures/data/playlists";
 import { PLAYLIST_ITEMS } from "fixtures/data/tracks";
